@@ -21,3 +21,5 @@ export default defineConfig(({ mode }) => {
     },
   };
 });
+
+// Ganti base agar sesuai dengan URL deploy di GitHub Pages

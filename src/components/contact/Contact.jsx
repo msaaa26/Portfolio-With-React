@@ -43,7 +43,7 @@ const Contact = () => {
                 I'm available anytime. Feel free to contact me if you have any work
               </p>
             </div>
-            <div className="my-8.75 flex flex-row justify-end items-center gap-4">
+            <div className="my-8.75 flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-4">
               {addressData.map((item, index) => (
                 <Address item={item} key={index} />
               ))}
