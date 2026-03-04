@@ -228,7 +228,7 @@ const HappyClients = () => {
     <div className="grid xl:grid-cols-1 md:grid-cols-1 gap-6">
     <div className="w-max mt-17 rounded-lg outline-[#FFFFFF] hover:shadow-2xl duration-300 transition-all shadow-gray-300 border border-gray-200 p-4 bg-white/80">
     {/* Tempat tambah skills list */}
-    <div className="flex flex-wrap gap-4 justify-center">
+    <div className="my-8.75 flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-4">
     {skills.map((skill, idx) => (
       <div key={skill.name} className="flex flex-col items-center w-28 sm:w-32 md:w-36 p-2 bg-white rounded-lg shadow hover:shadow-lg transition-all border border-gray-100">
       <div className="mb-2">{skill.icon}</div>
