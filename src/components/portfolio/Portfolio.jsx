@@ -31,20 +31,20 @@ const projectData = [
   },
   {
     id: 3,
-    image: card3,
-    category: "IT Helpdesk",
-    title: "Complete IT Helpdesk Examp",
-    description:
-      "Provided comprehensive IT support, resolving technical issues and ensuring smooth operations for end-users.",
-    link: "#!",
-  },
-  {
-    id: 4,
     image: card9,
     category: "Web Developer",
     title: "Web Portfolio with Next.js",
     description:
       "Built a responsive web portfolio using Next.js, showcasing projects and skills with optimized performance.",
+    link: "#!",
+  },
+  {
+    id: 4,
+    image: card3,
+    category: "IT Helpdesk",
+    title: "Complete IT Helpdesk Examp",
+    description:
+      "Provided comprehensive IT support, resolving technical issues and ensuring smooth operations for end-users.",
     link: "#!",
   },
   // {
