@@ -217,7 +217,7 @@ const HappyClients = () => {
   return (
     <div className="content py-10 md:py-25 flex flex-col items-center px-2" id="1">
     <div className="max-w-144.25 text-center ">
-    <p className="section-title mb-6">My Skkils</p>
+    <p className="section-title mb-6">My Skills</p>
     <p className="text-[14px] sm:text-lg text-soft-dark font-normal">
     I've had the pleasure of working with a diverse range of companies,
     from startups to established brands.
@@ -228,13 +228,13 @@ const HappyClients = () => {
     <div className="grid xl:grid-cols-1 md:grid-cols-1 gap-6">
     <div className="w-max mt-17 rounded-lg outline-[#FFFFFF] hover:shadow-2xl duration-300 transition-all shadow-gray-300 border border-gray-200 p-4 bg-white/80">
     {/* Tempat tambah skills list */}
-    <div className="my-8.75 flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-4">
-    {skills.map((skill, idx) => (
-      <div key={skill.name} className="flex flex-col items-center w-28 sm:w-32 md:w-36 p-2 bg-white rounded-lg shadow hover:shadow-lg transition-all border border-gray-100">
-      <div className="mb-2">{skill.icon}</div>
-      <span className="text-xs sm:text-sm md:text-base font-semibold text-gray-700 text-center">{skill.name}</span>
-      </div>
-    ))}
+    <div className="my-8.75 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 justify-center items-center">
+      {skills.map((skill, idx) => (
+        <div key={skill.name} className="flex flex-col items-center w-full p-2 bg-white rounded-lg shadow hover:shadow-lg transition-all border border-gray-100">
+          <div className="mb-2">{skill.icon}</div>
+          <span className="text-xs sm:text-sm md:text-base font-semibold text-gray-700 text-center">{skill.name}</span>
+        </div>
+      ))}
     </div>
     </div>
     </div>
