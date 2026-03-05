@@ -33,9 +33,9 @@ const projectData = [
     id: 3,
     image: card9,
     category: "Web Developer",
-    title: "Web Portfolio with Next.js",
+    title: "Web Portfolio with React",
     description:
-      "Built a responsive web portfolio using Next.js, showcasing projects and skills with optimized performance.",
+      "Built a responsive web portfolio using React, showcasing projects and skills with optimized performance.",
     link: "#!",
   },
   {
